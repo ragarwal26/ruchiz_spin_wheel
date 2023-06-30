@@ -44,7 +44,7 @@ let myChart = new Chart(wheel, {
   type: "pie",
   data: {
     //Labels(values which are to be displayed on chart)
-    labels: ["one more spin chance", "Irene", "Anip", "Amanda" , "Austin" , "Dan", "James", "Let's try again","Ruchi","Ron","Amy","Datta"],
+    labels: ["one more spin chance", "Irene", "Anip", "Amanda" , "Austin" , "Dan", "James", "Let's try again","Ruchi","Ron","Amy","time again"],
     //Settings for dataset/pie
     datasets: [
       {
