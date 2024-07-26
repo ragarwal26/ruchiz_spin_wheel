@@ -32,9 +32,9 @@ var pieColors = [
   "#138D75",
   "#F1C40F",
   "#b163da",
-  "#E74C3C",
-  "#7D3C98",
-  "#138D75",
+  "#E74C3C"
+  // "#7D3C98",
+  // "#138D75",
 ];
 //Create chart
 let myChart = new Chart(wheel, {
