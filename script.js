@@ -5,12 +5,12 @@ const finalValue = document.getElementById("final-value");
 //Object that stores values of minimum and maximum angle for a value
 const rotationValues = [
   { minDegree: 61, maxDegree: 90, value: "Congratulations, you are selected" },
-  { minDegree: 31, maxDegree: 60, value: "Congratulations, you are selected" },
-  { minDegree: 0, maxDegree: 30, value: "Congratulations, you are selected" },
+  { minDegree: 51, maxDegree: 80, value: "Congratulations, you are selected" },
+  { minDegree: 0, maxDegree: 50, value: "Congratulations, you are selected" },
   { minDegree: 331, maxDegree: 360, value: "Congratulations, you are selected"},
   { minDegree: 301, maxDegree: 330, value: "Congratulations, you are selected"},
-  { minDegree: 271, maxDegree: 300, value: "Congratulations, you are selected" },
-  { minDegree: 277, maxDegree: 303, value: "Congratulations, you are selected"},
+  // { minDegree: 271, maxDegree: 300, value: "Congratulations, you are selected" },
+  // { minDegree: 277, maxDegree: 303, value: "Congratulations, you are selected"},
   { minDegree: 241, maxDegree: 270, value: "Congratulations, you are selected"},
   { minDegree: 211, maxDegree: 240, value: "Congratulations, you are selected" },
   { minDegree: 181, maxDegree: 210, value: "Congratulations, you are selected" },
@@ -20,7 +20,7 @@ const rotationValues = [
 ];
 
 //Size of each piece
-const data = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
+const data = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
 //background color for eachpiece
 var pieColors = [
   "#E74C3C",
