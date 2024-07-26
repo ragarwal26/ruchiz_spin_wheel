@@ -7,8 +7,8 @@ const rotationValues = [
   { minDegree: 61, maxDegree: 90, value: "Congratulations, you are selected" },
   { minDegree: 51, maxDegree: 80, value: "Congratulations, you are selected" },
   { minDegree: 0, maxDegree: 50, value: "Congratulations, you are selected" },
-  { minDegree: 331, maxDegree: 360, value: "Congratulations, you are selected"},
-  { minDegree: 301, maxDegree: 330, value: "Congratulations, you are selected"},
+  // { minDegree: 331, maxDegree: 360, value: "Congratulations, you are selected"},
+  // { minDegree: 301, maxDegree: 330, value: "Congratulations, you are selected"},
   // { minDegree: 271, maxDegree: 300, value: "Congratulations, you are selected" },
   // { minDegree: 277, maxDegree: 303, value: "Congratulations, you are selected"},
   { minDegree: 241, maxDegree: 270, value: "Congratulations, you are selected"},
@@ -20,7 +20,7 @@ const rotationValues = [
 ];
 
 //Size of each piece
-const data = [10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
+const data = [10, 10, 10, 10, 10, 10, 10, 10];
 //background color for eachpiece
 var pieColors = [
   "#E74C3C",
@@ -30,9 +30,9 @@ var pieColors = [
   "#F1C40F",
   "#D35400",
   "#138D75",
-  "#F1C40F",
-  "#b163da",
-  "#E74C3C"
+  "#F1C40F"
+  // "#b163da",
+  // "#E74C3C",
   // "#7D3C98",
   // "#138D75",
 ];
@@ -44,7 +44,7 @@ let myChart = new Chart(wheel, {
   type: "pie",
   data: {
     //Labels(values which are to be displayed on chart)
-    labels: ["spin again", "Irene", "Anip", "Amanda" , "Austin" , "spin again", "Jordan","Ruchi","Amy","Adnan"],
+    labels: ["Irene", "Anip", "Amanda" , "Austin" , "Jordan","Ruchi","Amy","Adnan"],
     //Settings for dataset/pie
     datasets: [
       {
